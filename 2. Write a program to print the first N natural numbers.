@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+    int i=1,N;
+    printf("enter a N value :");
+    scanf("%d",&N);
+    printf("First N natural number \n");
+    while (i<=N)
+    {
+      printf("%d\n",i);
+      i++;
+    }
+    getch();
+
+}
