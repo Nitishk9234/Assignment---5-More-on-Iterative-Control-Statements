@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int i=1,N;
+    printf("enter a N value :");
+    scanf("%d",&N);
+    while (i<=N)
+    {
+      printf("MysirG \n");
+      i++;
+    }
+    getch();
+
+}
