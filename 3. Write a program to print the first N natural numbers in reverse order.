@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+    int i=1,N;
+    printf("Enter a N value :");
+    scanf("%d",&N);
+    printf("the first N natural numbers in reverse order \n");
+    do
+    {
+      printf("%d\n",N);
+      N--;
+    }
+    while(i<=N);
+    getch();
+}
