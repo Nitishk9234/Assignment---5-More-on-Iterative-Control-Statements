@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+     int i=1,N;
+     printf("Enter a N value :");
+     scanf("%d",&N);
+     printf("first N even natural number \n");
+    while(i<=N)
+    {
+      printf("%d\n",i*2);
+      i++;
+    }
+    printf("end");
+
+    getch();
+}
