@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+     int i=1,N;
+     printf("Enter a N value :");
+     scanf("%d",&N);
+     printf("first N odd number in reverse order \n");
+    do
+    {
+      printf("%d\n",N*2-1);
+      N--;
+    }
+    while(i<=N);
+    printf("last one");
+
+    getch();
+}
